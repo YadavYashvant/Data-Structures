@@ -37,9 +37,8 @@ int main() {
     push(30);
     printf("Top element: %d\n", peek());
     printf("Popped element: %d\n", pop());
-    printf("Popped element: %d\n", pop());
     printf("Top element: %d\n", peek());
     push(40);
-    printf("Top element: %d\n", peek());
+    printf("New top element after push: %d\n", peek());
     return 0;
 }
